@@ -15,8 +15,7 @@ Giuseppe Castagna, Victor Lanvin, Tommaso Petrucciani, and Jeremy G. Siek.
 *Gradual Typing: A New Perspective*.
 Proceedings of the ACM on Programming Languages 3, POPL, article 16.
 January 2019.
-To appear.
-[PDF](https://www.irif.fr/~gc/papers/popl19.pdf)
+[ACM](https://dl.acm.org/citation.cfm?id=3290329)
 
 Tommaso Petrucciani, Giuseppe Castagna, Davide Ancona, and Elena Zucca.
 *Semantic Subtyping for Non-Strict Languages*.
