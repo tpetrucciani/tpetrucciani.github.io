@@ -3,6 +3,14 @@ permalink: /publications
 title: Publications
 ---
 
+## Theses
+
+*A set-theoretic type system for polymorphic variants in ML*.
+Master's thesis, Università degli studi di Genova. 2015.
+
+*Polymorphic set-theoretic types for functional languages*.
+PhD thesis, Università degli studi di Genova & Université Paris Diderot. 2019.
+
 ## Journal and conference papers
 
 Giuseppe Castagna, Tommaso Petrucciani, and Kim Nguyễn.
@@ -10,6 +18,9 @@ Giuseppe Castagna, Tommaso Petrucciani, and Kim Nguyễn.
 ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming.
 [ACM](http://doi.acm.org/10.1145/2951913.2951928)
 [arXiv](https://arxiv.org/abs/1606.01106)
+(Note that the claim of completeness of type inference is unsubstantiated
+because the proof of Theorem 5.3 is wrong.
+Chapter 4 of my PhD thesis addresses the issue and provides a more robust solution.)
 
 Giuseppe Castagna, Victor Lanvin, Tommaso Petrucciani, and Jeremy G. Siek.
 *Gradual Typing: A New Perspective*.
