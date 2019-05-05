@@ -10,6 +10,7 @@ Master's thesis, Università degli studi di Genova. 2015.
 
 *Polymorphic set-theoretic types for functional languages*.
 PhD thesis, Università degli studi di Genova & Université Paris Diderot. 2019.
+[PDF](/assets/files/phd-thesis.pdf)
 
 ## Journal and conference papers
 
