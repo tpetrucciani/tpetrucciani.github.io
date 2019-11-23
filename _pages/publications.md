@@ -31,8 +31,9 @@ January 2019.
 
 Tommaso Petrucciani, Giuseppe Castagna, Davide Ancona, and Elena Zucca.
 *Semantic Subtyping for Non-Strict Languages*.
-Under submission for publication in the post-proceedings of TYPES 2018:
-24th International Conference on Types for Proofs and Programs.
+Post-proceedings of the 24th International Conference on Types for Proofs and Programs
+(LIPIcs – Vol. 130 – TYPES 2018).
+[Dagstuhl](http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=11408)
 [arXiv](https://arxiv.org/abs/1810.05555)
 
 ## Extended abstracts
