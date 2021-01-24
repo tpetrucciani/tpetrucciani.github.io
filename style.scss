@@ -1,0 +1,137 @@
+$background-color: #dddddd;
+$main-text-color: #494b53;
+$lighter-text-color: #696c77;
+
+@font-face {
+  font-family: SourceSans;
+  font-weight: normal;
+  src: url(resources/fonts/SourceSans3-Regular.otf.woff);
+}
+
+@font-face {
+  font-family: SourceSans;
+  font-weight: normal;
+  font-style: italic;
+  src: url(resources/fonts/SourceSans3-It.otf.woff);
+}
+
+@font-face {
+  font-family: SourceSans;
+  font-weight: 200;
+  src: url(resources/fonts/SourceSans3-ExtraLight.otf.woff);
+}
+
+@font-face {
+  font-family: SourceSans;
+  font-weight: 300;
+  src: url(resources/fonts/SourceSans3-Light.otf.woff);
+}
+
+@font-face {
+  font-family: SourceSans;
+  font-weight: 600;
+  src: url(resources/fonts/SourceSans3-Semibold.otf.woff);
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: $background-color;
+  color: $main-text-color;
+  font-family: SourceSans, sans-serif;
+  margin: 1rem 0 0 0;
+}
+
+nav {
+  align-items: baseline;
+  display: flex;
+  height: 4rem;
+  margin-top: 1rem;
+
+  div {
+    margin-right: 2rem;
+  }
+
+  a, a:visited {
+    color: inherit;
+  }
+
+  .my-name {
+    font-size: 1.66rem;
+    font-weight: 300;
+    text-align: right;
+    width: 16rem;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .header-nav {
+    color: $lighter-text-color;
+    font-feature-settings: 'c2sc', 'smcp';
+    letter-spacing: 0.1rem;
+  }
+}
+
+#two-columns {
+  display: flex;
+}
+
+#sidebar {
+  margin-right: 2.1em;
+  text-align: right;
+  width: 15.9rem;
+  flex-shrink: 0;
+
+  #profile-picture {
+    border-radius: 2rem;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .link {
+    color: $lighter-text-color;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+}
+
+main {
+  margin: 0 4rem 4rem 0;
+  max-width: 40rem;
+
+  h1 {
+    font-size: 1.66rem;
+    font-weight: 300;
+    margin-block-start: 0;
+  }
+
+  h2 {
+    font-size: 1.33rem;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    margin-block-start: 0;
+  }
+
+  a, a:hover, a:visited {
+    color: #3b61b0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
