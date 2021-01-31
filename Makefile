@@ -1,10 +1,10 @@
 RESOURCES_DIR = "resources"
-TARGET_DIR = "build"
+TARGET_DIR = "docs"
 
 TEMPLATE_FILE = "template.html"
 
 SOURCES = $(wildcard *.md)
-HTMLs = $(patsubst %.md,build/%.html,$(SOURCES))
+HTMLs = $(patsubst %.md,docs/%.html,$(SOURCES))
 
 all: create_target_dir copy_resources compile_scss $(HTMLs)
 
@@ -17,7 +17,7 @@ copy_resources:
 compile_scss:
 	sass style.scss $(TARGET_DIR)/style.css
 
-build/%.html: %.md
+docs/%.html: %.md
 	pandoc -t html5 -s --template $(TEMPLATE_FILE) -c style.css $< -o $@
 
 clean:
