@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Research</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="my-name"><a href="/">Tommaso Petrucciani</a></div>
+    <div class="header-nav"><a href="/">About me</a></div>
+    <div class="header-nav"><a href="/research">Research</a></div>
+  </nav>
+  <div id="two-columns">
+    <div id="sidebar">
+      <img src="resources/images/profile.jpeg" id="profile-picture"/>
+      <a class="link" href="mailto:tommaso.petrucciani@icloud.com" rel="nofollow noopener noreferrer">Email</a>
+      <a class="link" href="https://github.com/tpetrucciani" rel="nofollow noopener noreferrer" target="_blank">GitHub</a>
+      <a class="link" href="https://linkedin.com/in/tpetrucciani" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
+      <a class="link" href="https://dblp.org/pid/182/2309.html" rel="nofollow noopener noreferrer" target="_blank">dblp</a>
+    </div>
+    <main>
+        <h1 class="title">Research</h1>
+    </h1>
+        <p>During my PhD, I worked on type systems for functional languages, and in particular on <em>union</em> and <em>intersection types</em> – two features that have become more widely used in recent languages (e.g. TypeScript, Flow, and Ceylon).</p>
+        <p>In my work, I followed the <em>semantic subtyping</em> approach to define type systems with union and intersection types. This approach has been developed originally for domain-specific languages for XML processing (<a href="http://xduce.sourceforge.net">XDuce</a> and later <a href="http://www.cduce.org">CDuce</a>). Later, it has been extended to deal with more language features. I contributed to this by showing how to use semantic subtyping in conjunction with three important language features:</p>
+        <ul>
+        <li><em>type inference</em> (as in OCaml and Haskell),</li>
+        <li><a href="http://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/"><em>gradual typing</em></a> (a technique to integrate static and dynamic typing, as in TypeScript, Flow, or C#),</li>
+        <li><em>lazy evaluation</em> (as in Haskell).</li>
+        </ul>
+        <p>While most of my work has been theoretical, I’ve also developed a prototype of a type inference system in OCaml.</p>
+        <h2 id="publications">Publications</h2>
+        <h3 id="theses">Theses</h3>
+        <p><em>A set-theoretic type system for polymorphic variants in ML</em>. Master’s thesis, Università degli studi di Genova. 2015.</p>
+        <p><em>Polymorphic set-theoretic types for functional languages</em>. PhD thesis, Università degli studi di Genova &amp; Université Paris Diderot. 2019. <a href="/resources/files/phd-thesis.pdf">PDF</a></p>
+        <h3 id="journal-and-conference-papers">Journal and conference papers</h3>
+        <p>Giuseppe Castagna, Tommaso Petrucciani, and Kim Nguyễn. <em>Set-Theoretic Types for Polymorphic Variants</em>. ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming. <a href="http://doi.acm.org/10.1145/2951913.2951928">ACM</a> <a href="https://arxiv.org/abs/1606.01106">arXiv</a> (Note that the claim of completeness of type inference is unsubstantiated because the proof of Theorem 5.3 is wrong. Chapter 4 of my PhD thesis addresses the issue and provides a more robust solution.)</p>
+        <p>Giuseppe Castagna, Victor Lanvin, Tommaso Petrucciani, and Jeremy G. Siek. <em>Gradual Typing: A New Perspective</em>. Proceedings of the ACM on Programming Languages 3, POPL, article 16. January 2019. <a href="https://dl.acm.org/citation.cfm?id=3290329">ACM</a></p>
+        <p>Tommaso Petrucciani, Giuseppe Castagna, Davide Ancona, and Elena Zucca. <em>Semantic Subtyping for Non-Strict Languages</em>. Post-proceedings of the 24th International Conference on Types for Proofs and Programs (LIPIcs – Vol. 130 – TYPES 2018). <a href="http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=11408">Dagstuhl</a> <a href="https://arxiv.org/abs/1810.05555">arXiv</a></p>
+        <h3 id="extended-abstracts">Extended abstracts</h3>
+        <p>Davide Ancona, Giuseppe Castagna, Tommaso Petrucciani, and Elena Zucca. <em>Semantic Subtyping for Non-Strict Languages</em>. TYPES 2018: 24th International Conference on Types for Proofs and Programs. <a href="/resources/files/types2018-abstract-nonstrict.pdf">PDF</a></p>
+        <p>Giuseppe Castagna, Victor Lanvin, Tommaso Petrucciani, and Jeremy G. Siek. <em>Polymorphic Gradual Typing: A Set-Theoretic Perspective</em>. TYPES 2018: 24th International Conference on Types for Proofs and Programs. <a href="/resources/files/types2018-abstract-gradual.pdf">PDF</a></p>
+    </main>
+  </div>
+</body>
+</html>
