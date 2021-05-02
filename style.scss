@@ -47,11 +47,11 @@ body {
 nav {
   align-items: baseline;
   display: flex;
-  height: 4rem;
-  margin-top: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 2rem 0;
 
   div {
-    margin-right: 2rem;
+    margin-left: 2rem;
   }
 
   a, a:visited {
@@ -61,6 +61,7 @@ nav {
   .my-name {
     font-size: 1.66rem;
     font-weight: 300;
+    margin-left: 0;
     text-align: right;
     width: 16rem;
 
@@ -78,13 +79,14 @@ nav {
 
 #two-columns {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #sidebar {
-  margin-right: 2.1em;
+  flex-shrink: 0;
+  margin: 0 0 2rem 0;
   text-align: right;
   width: 15.9rem;
-  flex-shrink: 0;
 
   #profile-picture {
     border-radius: 2rem;
@@ -101,7 +103,7 @@ nav {
 }
 
 main {
-  margin: 0 4rem 4rem 0;
+  margin: 0 4rem 4rem 2.1rem;
   max-width: 40rem;
 
   h1 {
